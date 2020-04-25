@@ -34,6 +34,7 @@ public class daoTest {
             System.out.println(user);
         }
         //6.释放资源
+        //关闭SqlSession和流
         session.close();
         in.close();
     }
