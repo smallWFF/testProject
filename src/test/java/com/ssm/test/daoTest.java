@@ -34,7 +34,8 @@ public class daoTest {
             System.out.println(user);
         }
         //6.释放资源
-        ///关闭流和SqlSession
+        //关闭流和SqlSession
+        //测试git命令
         session.close();
         in.close();
     }
