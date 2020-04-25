@@ -19,7 +19,7 @@ import java.util.List;
 public class daoTest {
 
     public static void main(String[] args) throws IOException {
-        //1.读取配置文件
+         //1.读取配置文件
         InputStream in = Resources.getResourceAsStream("sqlmapConfig.xml");
         //2.创建SqlSessionFactory工厂
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
