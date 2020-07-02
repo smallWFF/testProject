@@ -20,7 +20,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
+            <version>8.0.16</version>
             <!--
                compile:什么都不配置也就是意味着compile。compile表示被依赖项目需要参与当前项目的编译，当然后续的测试，运行周期也参与其中，是一个比较强的依赖。打包的时候通常需要包含进去。默认的scope,在部署的时候将会打包到lib目录下，项目在编译，测试，运行阶段都需要
                test:scope为test表示依赖项目仅仅参与测试相关的工作，在编译和运行环境下都不会被使用，更别说打包了。
